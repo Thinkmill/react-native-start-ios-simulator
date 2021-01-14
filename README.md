@@ -33,7 +33,7 @@ yarn add react-native-ios-start-sim
 {
   "name": "My-React-Native-App",
   "scripts": {
-    "ios":"run-ios"
+    "ios":"start-ios-sim"
   },
   "dependencies": {
     "react-native-start-ios-sim": "^1.0.0"
@@ -50,7 +50,7 @@ If your app uses schemes to configure environments, you can specify what scheme 
 {
   "name": "My-React-Native-App",
   "scripts": {
-    "ios": "start-ios --scheme='Invoices'",
+    "ios": "start-ios-sim --scheme='Invoices'",
   }
 }
 ```

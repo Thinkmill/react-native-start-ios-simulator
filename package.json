@@ -9,7 +9,7 @@
     "yargs": "^16.2.0"
   },
   "bin": {
-    "start-ios": "./cli.js"
+    "start-ios-sim": "./cli.js"
   },
   "scripts": {
     "test": "node cli.js"
