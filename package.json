@@ -2,6 +2,11 @@
   "name": "react-native-start-ios-sim",
   "version": "1.0.0",
   "description": "Start a React Native app in the iOS simulator of your choice.",
+  "homepage": "https://github.com/Thinkmill/react-native-start-ios-simulator",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Thinkmill/react-native-start-ios-simulator"
+  },
   "main": "cli.js",
   "dependencies": {
     "execa": "^5.0.0",
