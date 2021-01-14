@@ -2,7 +2,7 @@
   "name": "react-native-start-ios-sim",
   "version": "1.0.0",
   "description": "Start a React Native app in the iOS simulator of your choice.",
-  "homepage": "https://github.com/Thinkmill/react-native-start-ios-simulator",
+  "homepage": "https://github.com/Thinkmill/react-native-start-ios-simulator/README.md",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/Thinkmill/react-native-start-ios-simulator"
@@ -19,6 +19,10 @@
   "scripts": {
     "test": "node cli.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Thinkmill",
+    "url": "https://thinkmill.com.au"
+  },
+  "license": "MIT",
+  "keywords": ["react native", "ios", "simulator", "javascript"]
 }
