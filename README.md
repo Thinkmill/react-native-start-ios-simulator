@@ -50,7 +50,18 @@ If your app uses schemes to configure environments, you can specify what scheme 
 {
   "name": "My-React-Native-App",
   "scripts": {
-    "ios": "start-ios-sim --scheme='Invoices'",
+    "ios": "start-ios-sim --scheme='Development'",
   }
 }
 ```
+
+
+## Publishing
+
+We version this package by updating the CHANGELOG.md file, and using the npm version commands...
+
+- `npm version patch`
+- `npm version minor`
+- `npm version major`
+
+ We then publish to NPM using `npm publish`.
